@@ -55,7 +55,7 @@ app.delete("/todos/:id", function (req, res) {
 });
 
 app.get("/", function (req, res) {
-  res.send("Welcome to losloscodes!");
+  res.send("Welcome to Coding");
 });
 
 app.listen(3001, function () {
